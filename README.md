@@ -21,17 +21,7 @@ linux shell脚本，自动化筛选
 wget https://raw.githubusercontent.com/seal0207/better-cloudflare-ip/master/fping-4.2.tar.gz
 
 
-tar -vxf fping-4.2.tar.gz
-
-cd fping-4.2
-
-./configure
-
-make
-
-cd src
-
-sudo ./cf.sh
+tar -vxf fping-4.2.tar.gz && cd fping-4.2  &&  ./configure  &&  make  &&  cd src  &&  ./cf.sh
 
 1.根据你当前带宽设置一个期望的CF速度的大小，比如说家里宽带100兆，如果想要CF单线程下载速度达到20兆的宽带效果，直接输入数值 20 并按回车键
 
