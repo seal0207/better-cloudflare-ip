@@ -11,7 +11,13 @@ linux shell脚本，自动化筛选
 下载修改过的源码 fping-4.2.tar.gz  点击链接下载源码 https://proxy.freecdn.workers.dev/?url=https://raw.githubusercontent.com/badafans/better-cloudflare-ip/master/fping-4.2.tar.gz
 
 具体编译使用流程如下
- 
+
+
+先安装编译工具。apt install -y  build-essential
+
+安装git需要的一些库。apt install  -y libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
+
+执行：
 
 tar -vxf fping-4.2.tar.gz
 
