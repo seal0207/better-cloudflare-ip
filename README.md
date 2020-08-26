@@ -18,6 +18,8 @@ linux shell脚本，自动化筛选
 安装git需要的一些库。apt install  -y libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
 
 执行：
+wget https://raw.githubusercontent.com/seal0207/better-cloudflare-ip/master/fping-4.2.tar.gz
+
 
 tar -vxf fping-4.2.tar.gz
 
